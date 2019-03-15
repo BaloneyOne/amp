@@ -8,7 +8,7 @@
 <!-- - [Contact](#contact) -->
 <!-- - [How to cite this code-base?](#how-to-cite-this-code-base) -->
 
-# AMP: A Better MultiPath TCP for Data Center Networks
+# AMP: A Better Multipath TCP for Data Center Networks
 
 In this paper, we proposed two novel ECN-capable multipath congestion
 control algorithms for modern data center networks (DCNs).
@@ -23,7 +23,7 @@ presented by the name of Data Center MultiPath TCP
 ([MSN16](http://coseners.net/previous/msn2016/)), in UK, on 7th July
 2016.
 
-The second algorithm is called Adaptive MultiPath TCP (AMP). AMP is
+The second algorithm is called Adaptive MultiPath (AMP). AMP is
 particularly designed to be robust against the TCP incast problem. It
 also coexists well with single-path flows like DCTCP, preventing the
 Last Hop Unfairness (LHU) problem that we've reported in this paper
@@ -33,8 +33,9 @@ less congested ones without sophisticated mechanisms such as
 RTT-dependent congestion window increase, as in standard MPTCP, or
 dynamic congestion window decrease, as in DCTCP.
 
-Please see the extended version of the AMP paper in
-[here](http://www.uclmail.net/users/m.kheirkhah/amp-extended.pdf).
+The AMP paper will be presented at the IFIP Networking 2019 Conference
+in Poland. The extended version of the AMP paper can be found in
+[here](https://arxiv.org/pdf/1707.00322.pdf).
 
 # Implementations
 As part of this project, we have implemented several networking
@@ -123,11 +124,3 @@ Please use the following bibtex:
   archivePrefix = {arXiv},
 }
 ```
-
-# Conditions to use this source code
-
-* If you use this source code in part or entirely, please consider
-  citing the AMP paper.
-* If you want to release your code that is built atop our source code,
-  please consider releasing a patch, which is applicable atop our
-  source code.
